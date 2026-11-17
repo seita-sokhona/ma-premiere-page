@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Soar Studio</title>
+   <style>
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #14112b;
+      color: white;
+      text-align: center;
+      padding-top: 120px;
+    }
+    h1 {
+      font-size: 64px;
+      letter-spacing: 4px;
+    }
+    p {
+      color: #b9b3e8;
+      font-size: 20px;
+    }
+    button {
+      background-color: #7b5cff;
+      color: white;
+      border: none;
+      padding: 14px 32px;
+      border-radius: 30px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+ 
+<body>
+  <h1>Soar Studio</h1>
+  <p>Graphiste et designer freelance.</p>
+  <button>Me contacter</button>
+   <script>
+    const bouton = document.querySelector("button");
+
+    bouton.addEventListener("click", function () {
+      bouton.textContent = "Merci, je vous réponds vite !";
+      bouton.style.backgroundColor = "#2ecc71";
+    });
+  </script>
+</body>
+</html>
